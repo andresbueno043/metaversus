@@ -1,3 +1,7 @@
+"use client";
+
+import { GithubButton } from "react-github-link-button/dist";
+
 import { Footer, Navbar } from "../components";
 import {
   About,
@@ -30,6 +34,7 @@ const Page = () => (
     </div>
     <Feedback />
     <Footer />
+    <GithubButton href="https://github.com/andresbueno043/metaversus" message="Check out my code" />
   </div>
 );
 
